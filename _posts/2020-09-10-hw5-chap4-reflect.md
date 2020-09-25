@@ -17,22 +17,34 @@ The cash-dispensing function in a bank ATM.
 Gas pump user requirements:
 
 The system shall present a choice of debit or credit
+
 The system shall process card choice and give prompt accordingly
+
 The system shall ask debit users for their pin numbers
+
 The system shall ask credit users for their zip codes
+
 The system shall prompt user to select fuel grade
+
 The system shall dispense fuel according to user selection
+
 The system shall charge the account
+
 
 Cash-dispensing function in a bank ATM user requirements:
 
 ***Assuming this is referring specifically, and only, to the cash-dispensing function, the preceding requirements to this function are omitted, such as authentication, and account selection. As well as requirements that would follow withdrawal, such as further user action, or card ejection prompt.***
 
 The system shall get user input of withdrawal amount
+
 The system shall alert the user if they are going to overdraw their account
+
 The system shall ask user to confirm selection
+
 The system shall dispense the inputted selection of money
+
 The system shall ask user of receipt selection
+
 
 
 
@@ -41,9 +53,13 @@ Transferring funds between accounts within the same bank user requirements:
 ***Again, assuming this is referring to the specific action of transferring funds, where authentication and authorization have already been addressed.***
 
 The system shall get account information of receiving account
+
 The system shall verify information
+
 The system shall prompt user for amount
+
 The system shall send process request
+
 
 
 
@@ -57,30 +73,54 @@ Users of an ATM:
 Person with an ATM/Debit card
 
 Use Case 1: User wants to make a withdrawal
+
 User puts in card associated with relevant account, and their pin number
+
 User selects withdrawal option, and selects amount to withdraw
+
 User receives dispensed money
+
 User is prompted to remove their card
+
 User is given a receipt of the transaction
 
+
 Use Case 2: User wants to make a deposit
+
 User puts in card associated with relevant account, and their pin number
+
 User selects deposit option, and selects amount to deposit
+
 User insert money
+
 User removes their card
+
 User receives a receipt of the transaction
 
+
 Use Case 3: User wants to make a withdrawal but changes their mind
+
 User puts in card associated with relevant account, and their pin number
+
 User selects withdrawal option, and selects amount to withdraw
+
 User exits selection
+
 User removes their card
 
+
 Use Case 4: User is not authenticated
+
 User puts in card associated with relevant account, and their pin number; invalid
+
 User is prompted to re-enter pin
+
 User re-enters pin; invalid
+
 User is prompted to re-enter pin
+
 User re-enters pin; invalid
+
 User is informed account is locked
+
 User is asked to remove card
